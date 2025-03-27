@@ -2,4 +2,6 @@
 # Create a program that do the same functionality without using center() function.
 
 # Input string
+string = input("Enter a sentence: ")
+
 # Center align without using center()

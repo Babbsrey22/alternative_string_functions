@@ -2,4 +2,6 @@
 # Create a program that do the same functionality without using removeprefix() function.
 
 # Input string
+string = input("Enter a sentence: ")
+
 # Remove certain number of characters without removeprefix()

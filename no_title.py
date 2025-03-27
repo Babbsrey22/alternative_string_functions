@@ -2,4 +2,6 @@
 # Create a program that do the same functionality without using title() function.
 
 # Input string
+string = input("Enter a sentence: ")
+
 # Convert all first letters of each word to uppercase without title()

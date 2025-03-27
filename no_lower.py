@@ -2,4 +2,6 @@
 # Create a program that do the same functionality without using lower() function.
 
 # Input string
+string = input("Enter a sentence: ")
+
 # Convert to lowercase without lower()

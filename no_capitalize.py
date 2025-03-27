@@ -2,4 +2,6 @@
 # Create a program that do the same functionality without using capitalize() function.
 
 # Input string
+string = input("Enter a sentence: ")
+
 # Convert only first letter of string to uppercase without capitalize()

@@ -2,4 +2,6 @@
 # Create a program that do the same functionality without using isupper() function.
 
 # Input string
+string = input("Enter a sentence: ")
+
 # Print 'True' if string is in uppercase without isupper()
