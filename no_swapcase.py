@@ -5,3 +5,16 @@
 string = input("Enter a sentence: ")
 
 # Convert lowercase to uppercase and vice versa, without using swapcase()
+
+def swapcase_alternate(s): 
+    result = ''
+    for char in s:
+        if char.isupper():
+            result += char.lower()
+        elif char.islower():
+            result += char.upper()
+        else:
+            result += char
+    return result
+        
+print(swapcase_alternate(string))
