@@ -5,3 +5,14 @@
 string = input("Enter a sentence: ")
 
 # Convert to lowercase without lower()
+
+def lowercase_alternative(s):
+    result = " "
+    for char in s:
+        if "A" <= char <= "Z":
+            result += chr(ord(char) + 32)
+        else:
+            result += char
+    return result
+
+print(lowercase_alternative(string))
