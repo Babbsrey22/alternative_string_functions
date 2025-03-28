@@ -4,9 +4,6 @@
 # Input string
 string = input("Enter a sentence: ")
 
-standard_center = string.center(10)
-print(standard_center)
-
 # Center align without using center()
 
 def center_alternative(s):
@@ -15,6 +12,5 @@ def center_alternative(s):
     right_padding = padding - left_padding
 
     return ' ' * left_padding + s + ' ' * right_padding
-
 
 print(center_alternative(string))
