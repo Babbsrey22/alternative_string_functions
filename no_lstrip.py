@@ -5,3 +5,15 @@
 string = input("Enter a sentence: ")
 
 # Remove left spaces without lstrip()
+
+def lstrip_alternative():
+    spaces = 0
+
+    while spaces < len(string):
+        if string[spaces] == " ":
+            spaces += 1
+        else:
+            break
+    return string[spaces:]
+
+print(lstrip_alternative())
