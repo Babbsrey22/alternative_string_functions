@@ -5,3 +5,11 @@
 string = input("Enter a sentence: ")
 
 # Justify to the left without ljust()
+
+def ljust_alternative(string, width=30):
+    if len(string) >= width:
+        return string
+    # Prints _ to show left justified
+    return string + '_' * (width - len(string))
+
+print(ljust_alternative(string))
