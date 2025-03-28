@@ -5,3 +5,14 @@
 string = input("Enter a sentence: ")
 
 # Convert only first letter of string to uppercase without capitalize()
+
+def capitalize_alternate(s):
+    result = ''
+    for char in range(len(s)):
+        if char == 0 and s[char].isalpha():
+            result += s[char].upper()
+        else:
+            result += s[char]
+    return result
+
+print(capitalize_alternate(string))
